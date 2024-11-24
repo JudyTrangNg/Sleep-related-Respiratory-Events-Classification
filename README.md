@@ -6,7 +6,7 @@
 ## Task Summary
 ## Workflow of The Proposed Algorithm
 ## Coding Details
-### Preprocessing: removal noises, standardization. segmentation
+### Preprocessing: removal noises, standardization, segmentation
 ### Time-frequency Transformation
 ### Class Balancing - SMOTE
 ### Feature Extract
