@@ -4,16 +4,17 @@ This project to classify different sleep-related respiratory events including Ob
 * University of Medicine and Pharmacy in Ho Chi Minh City, Vietnam
 * M.D: preventive medicine, MSc: biomedical engineering
 ## Task Summary
-## Workflow of The Proposed Algorithm
-## Coding Details
-### Preprocessing: removal noises, standardization, segmentation
-### Time-frequency Transformation
-### Class Balancing - SMOTE
-### Feature Extract
-### Feature Selection
-### Data Splitting
-### Model Building and Training
-### Evaluation Performance
+1. Input: Single-Lead ECG and EEG signals (C3M2 and C4M1 channels)
+2. Output: two classification strategy: Apnea vs Central, Apnea vs Hypopnea
+3. Datasets: 201 PSG recordings from University Medical Center (UMC)
+4. Preprocessing: artifact removal, signal normalization, band-pass filtering
+5. Feature extraction: Wavelet decomposition (DWT and WDA), Continuous Wavelet Transform
+6. Classification models: Nested-SVM, ResNet50
+## EEG signals
+
+## Code Structure
+![raw_EEG](https://github.com/user-attachments/assets/f671e12c-e931-42bd-91b2-9952cb71819e)
+
 
 
 
