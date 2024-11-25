@@ -16,3 +16,18 @@ This project to classify different sleep-related respiratory events including Ob
 ## EEG signals
 ![raw_EEG](https://github.com/user-attachments/assets/f671e12c-e931-42bd-91b2-9952cb71819e)
 ![subband_EEG_ap](https://github.com/user-attachments/assets/58419eb6-4a18-44a9-8c10-d82bd43ccc36)
+## Code Structure
+* signal_processing:
+  - Contains the edfread function
+  - EDF READ: https://www.mathworks.com/matlabcentral/fileexchange/31900-edfread
+  - Contains the code for the label extraction. This labels were scored as sleep stages N1, N2, N3, N4, REM and sleep events Apnea, Central, Hypopnea
+  - processing code including preprocessing methods and segmentation into 30s-epoch for both ECG and EEG
+* feature_extraction
+  - includes two codes for extracting ECG features with WPA and CWT; and EEG sub-bands features with DWT
+  - NCA feature selection technique
+* classifiers:
+  - Contains two code for two classification algorithms, SVM_Nested5foldCV and ResNet50
+* plot
+  - a simple code to plot several signals indicating sleep patterns
+* function
+  - Contains all related functions in this project
