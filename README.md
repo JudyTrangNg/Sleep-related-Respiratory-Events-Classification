@@ -1,5 +1,5 @@
-# Single-Lead ECG Analysis for Obstructive Sleep Apnea Classification
-## ECG analyzing, Wavelet transform, Machine learning, Deep Learing
+# Obstructive Sleep Apnea Classification by EEG and Single-Lead ECG Signals
+This project to classify different sleep-related respiratory events including Obstructive Apnea, Central Apnea, and Hypopnea using Time-frequency transformation technique and AI algorithms.
 #### -by Hoang Trang
 * University of Medicine and Pharmacy in Ho Chi Minh City, Vietnam
 * M.D: preventive medicine, MSc: biomedical engineering
