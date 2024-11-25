@@ -1,4 +1,4 @@
-# Sleep-related Respiratory Events Classification
+# Single-Lead ECG Analysis for Obstructive Sleep Apnea Classification
 ## ECG analyzing, Wavelet transform, Machine learning, Deep Learing
 #### -by Hoang Trang
 * University of Medicine and Pharmacy in Ho Chi Minh City, Vietnam
