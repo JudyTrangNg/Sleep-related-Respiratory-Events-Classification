@@ -11,8 +11,11 @@ This project to classify different sleep-related respiratory events including Ob
 5. Feature extraction: Wavelet decomposition (DWT and WDA), Continuous Wavelet Transform
 6. Classification models: Nested-SVM, ResNet50
 ## Raw ECG signal and ECG-Spectrogram
-![raw_ecg](https://github.com/user-attachments/assets/d2d769ee-c59f-4744-9ef3-be8c5fe83201)
-![ecg_spectrogram](https://github.com/user-attachments/assets/3b904fc0-676e-4711-981b-e5e271613c06)
+
+
+
+![signals](https://github.com/user-attachments/assets/be88155e-5e0f-49f9-876a-c23d8de883ab)
+
 ## EEG signals
 ![raw_EEG](https://github.com/user-attachments/assets/f671e12c-e931-42bd-91b2-9952cb71819e)
 ![subband_EEG_ap](https://github.com/user-attachments/assets/58419eb6-4a18-44a9-8c10-d82bd43ccc36)
