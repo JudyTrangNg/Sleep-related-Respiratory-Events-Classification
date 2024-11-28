@@ -16,6 +16,8 @@ This project to classify different sleep-related respiratory events including Ob
 ## EEG signals
 ![raw_EEG](https://github.com/user-attachments/assets/f671e12c-e931-42bd-91b2-9952cb71819e)
 ![subband_EEG_ap](https://github.com/user-attachments/assets/58419eb6-4a18-44a9-8c10-d82bd43ccc36)
+## The architecture of ResNet50
+![resnetmodel](https://github.com/user-attachments/assets/ea355554-bbda-4435-a224-c5ed5b77f397)
 ## Code Structure
 * signal_processing:
   - Contains the edfread function
